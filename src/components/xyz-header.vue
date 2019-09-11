@@ -1,6 +1,6 @@
 <template>
-    <div id="xyz-header">
-        hellox
+    <div>
+        <el-link href="https://www.baidu.com" :underline="false">hello xyz</el-link>
     </div>
 </template>
 
@@ -12,9 +12,8 @@
 
 <style scoped>
     #xyz-header {
-        background: aqua;
-        left: 50px;
-        text-align: center;
-        right: 50px;
+
+
     }
+
 </style>
